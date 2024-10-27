@@ -181,7 +181,7 @@
             color: var(--primary-purple);
         }
     
-        /* Charts */
+        /* Banners */
         .chart-container {
             background: #ffffff;
             border-radius: 10px;
@@ -286,7 +286,8 @@
                 margin-bottom: 15px;
             }
         }
-              
+         
+        /* below only for products */
       
       /* Theme Colors */
       :root {
@@ -376,37 +377,37 @@
     <div class="sidebar" id="sidebar">
         <div class="user-profile mb-4">
             <img src="https://images.freeimages.com/image/previews/b3f/insta-profile-icon-png-5690389.png?fmt=webp&h=350" alt="Profile" class="rounded-circle mb-2">
-            <h6 class="mb-0">John Doe</h6>
+            <h6 class="mb-0">ADMIN SRJ </h6>
         </div>
 
         <nav class="sidebar-nav">
-            <a href="#" class="nav-link active">
+            <a href="index.html" class="nav-link active">
                 <i class="fas fa-tachometer-alt"></i>
                 Dashboard
             </a>
-            <a href="#" class="nav-link">
+            <a href="products.html" class="nav-link">
                 <i class="fas fa-laptop"></i>
-                Elements
+                Products
             </a>
-            <a href="#" class="nav-link">
-                <i class="fas fa-th"></i>
-                Widgets
+            <a href="users.html" class="nav-link">
+              <i class="fas fa-th"></i>
+                Users
             </a>
-            <a href="#" class="nav-link">
-                <i class="fas fa-file-alt"></i>
-                Forms
+            <a href="orders.html" class="nav-link">
+              <i class="fas fa-file-alt"></i>
+                Orders
             </a>
-            <a href="#" class="nav-link">
-                <i class="fas fa-table"></i>
-                Tables
+            <a href="returns.html" class="nav-link">
+              <i class="fas fa-table"></i>
+                Returns
             </a>
-            <a href="#" class="nav-link">
-                <i class="fas fa-chart-bar"></i>
-                Charts
+            <a href="banners.html" class="nav-link">
+              <i class="fas fa-chart-bar"></i>
+                Banners
             </a>
-            <a href="#" class="nav-link">
-                <i class="fas fa-file"></i>
-                Pages
+            <a href="cancellations.html" class="nav-link">
+              <i class="fas fa-file"></i>
+                cancellations
             </a>
         </nav>
     </div>
@@ -448,7 +449,7 @@
                     <div class="dropdown">
                         <button class="btn btn-link d-flex align-items-center gap-2" data-bs-toggle="dropdown">
                             <img src="https://images.freeimages.com/image/previews/b3f/insta-profile-icon-png-5690389.png?fmt=webp&h=350" alt="Profile" class="rounded-circle profile-img">
-                            <span class="nav-text">John Doe</span>
+                            <span class="nav-text">ADMIN SRJ </span>
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -512,11 +513,11 @@
                           </td>
                           <td>
                               <div class="d-flex align-items-center gap-2">
-                                  <img src="path/to/shoe-image.jpg" alt="Zoom vomero" style="width: 50px; height: 50px; object-fit: cover;">
-                                  <span>Zoom vomero</span>
+                                  <img src="https://m.media-amazon.com/images/I/913lj7lKTXL._SY522_.jpg" alt="Zoom vomero" style="width: 70px; height: 70px; object-fit: cover;">
+                                  <span>power mind</span>
                               </div>
                           </td>
-                          <td>premium</td>
+                          <td>novel</td>
                           <td>August 1st, 2024</td>
                           <td>12000</td>
                           <td><span class="badge bg-success">Active</span></td>
@@ -526,6 +527,46 @@
                               </button>
                           </td>
                       </tr>
+                      <tr>
+                        <td>
+                            <input type="checkbox" class="form-check-input">
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="https://m.media-amazon.com/images/I/913lj7lKTXL._SY522_.jpg" alt="Zoom vomero" style="width: 70px; height: 70px; object-fit: cover;">
+                                <span>power mind</span>
+                            </div>
+                        </td>
+                        <td>novel</td>
+                        <td>August 1st, 2024</td>
+                        <td>12000</td>
+                        <td><span class="badge bg-success">Active</span></td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <input type="checkbox" class="form-check-input">
+                      </td>
+                      <td>
+                          <div class="d-flex align-items-center gap-2">
+                              <img src="https://m.media-amazon.com/images/I/913lj7lKTXL._SY522_.jpg" alt="Zoom vomero" style="width: 70px; height: 70px; object-fit: cover;">
+                              <span>power mind</span>
+                          </div>
+                      </td>
+                      <td>novel</td>
+                      <td>August 1st, 2024</td>
+                      <td>12000</td>
+                      <td><span class="badge bg-success">Active</span></td>
+                      <td>
+                          <button class="btn btn-primary btn-sm">
+                              <i class="fas fa-edit"></i>
+                          </button>
+                      </td>
+                  </tr>
                       <!-- Repeat similar rows for other products -->
                   </tbody>
               </table>
